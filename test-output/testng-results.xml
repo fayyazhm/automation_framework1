@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-30T17:28:25 IST" name="Suite" finished-at="2024-03-30T17:29:01 IST" duration-ms="36299">
+    <groups>
+      <group name="Purchase">
+        <method signature="Standalone2.submitorder(java.util.HashMap)[pri:0, instance:fayyaz.test.Standalone2@11d8ae8b]" name="submitorder" class="fayyaz.test.Standalone2"/>
+      </group> <!-- Purchase -->
+      <group name="errorhandling">
+        <method signature="errorvalidation.submitorder1()[pri:0, instance:fayyaz.test.errorvalidation@35399441]" name="submitorder1" class="fayyaz.test.errorvalidation"/>
+      </group> <!-- errorhandling -->
+    </groups>
+    <test started-at="2024-03-30T17:28:25 IST" name="Submit Order" finished-at="2024-03-30T17:28:52 IST" duration-ms="27288">
+      <class name="fayyaz.test.Standalone2">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:fayyaz.test.Standalone2@11d8ae8b]" started-at="2024-03-30T17:28:25 IST" name="launchApplication" finished-at="2024-03-30T17:28:28 IST" duration-ms="2866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:fayyaz.test.Standalone2@11d8ae8b]" started-at="2024-03-30T17:28:28 IST" name="submitorder" data-provider="getData" finished-at="2024-03-30T17:28:32 IST" duration-ms="3776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Fayyaz@123, username=fayyazhm1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="clos()[pri:0, instance:fayyaz.test.Standalone2@11d8ae8b]" started-at="2024-03-30T17:28:32 IST" name="clos" finished-at="2024-03-30T17:28:32 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clos -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:fayyaz.test.Standalone2@11d8ae8b]" started-at="2024-03-30T17:28:32 IST" name="launchApplication" finished-at="2024-03-30T17:28:34 IST" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:fayyaz.test.Standalone2@11d8ae8b]" started-at="2024-03-30T17:28:34 IST" name="submitorder" data-provider="getData" finished-at="2024-03-30T17:28:49 IST" duration-ms="14906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Fayyaz@123, username=fayyazhm2@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="clos()[pri:0, instance:fayyaz.test.Standalone2@11d8ae8b]" started-at="2024-03-30T17:28:49 IST" name="clos" finished-at="2024-03-30T17:28:49 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clos -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:fayyaz.test.Standalone2@11d8ae8b]" started-at="2024-03-30T17:28:49 IST" name="launchApplication" finished-at="2024-03-30T17:28:51 IST" duration-ms="2034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:fayyaz.test.Standalone2@11d8ae8b]" started-at="2024-03-30T17:28:51 IST" name="orderHistoryTest" finished-at="2024-03-30T17:28:52 IST" depends-on-methods="fayyaz.test.Standalone2.submitorder" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="clos()[pri:0, instance:fayyaz.test.Standalone2@11d8ae8b]" started-at="2024-03-30T17:28:52 IST" name="clos" finished-at="2024-03-30T17:28:52 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clos -->
+      </class> <!-- fayyaz.test.Standalone2 -->
+    </test> <!-- Submit Order -->
+    <test started-at="2024-03-30T17:28:52 IST" name="test.error" finished-at="2024-03-30T17:29:01 IST" duration-ms="8473">
+      <class name="fayyaz.test.errorvalidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:fayyaz.test.errorvalidation@35399441]" started-at="2024-03-30T17:28:53 IST" name="launchApplication" finished-at="2024-03-30T17:28:54 IST" duration-ms="1987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="producterrorvalidation()[pri:0, instance:fayyaz.test.errorvalidation@35399441]" started-at="2024-03-30T17:28:54 IST" name="producterrorvalidation" finished-at="2024-03-30T17:28:57 IST" duration-ms="2518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- producterrorvalidation -->
+        <test-method is-config="true" signature="clos()[pri:0, instance:fayyaz.test.errorvalidation@35399441]" started-at="2024-03-30T17:28:57 IST" name="clos" finished-at="2024-03-30T17:28:57 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clos -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:fayyaz.test.errorvalidation@35399441]" started-at="2024-03-30T17:28:57 IST" name="launchApplication" finished-at="2024-03-30T17:29:00 IST" duration-ms="2993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitorder1()[pri:0, instance:fayyaz.test.errorvalidation@35399441]" started-at="2024-03-30T17:29:00 IST" name="submitorder1" finished-at="2024-03-30T17:29:01 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder1 -->
+        <test-method is-config="true" signature="clos()[pri:0, instance:fayyaz.test.errorvalidation@35399441]" started-at="2024-03-30T17:29:01 IST" name="clos" finished-at="2024-03-30T17:29:01 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clos -->
+      </class> <!-- fayyaz.test.errorvalidation -->
+    </test> <!-- test.error -->
+  </suite> <!-- Suite -->
+</testng-results>
