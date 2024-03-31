@@ -26,7 +26,7 @@ public class Standalone2 extends BaseTest{
 		ProductCatalogue pc=landingpage.loginapplication(map.get("username"), map.get("password"));
 		pc.addproducttocart(productname);
 		cart cartitem=pc.goToCart();
-		System.out.println("hello")
+		System.out.println("hello");
 		Boolean match=cartitem.check(productname);
 		Assert.assertTrue(match);
 		payment pay=cartitem.checkOut();
